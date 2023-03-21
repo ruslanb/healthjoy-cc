@@ -4,6 +4,7 @@ import requests
 
 blueprint = flask.Blueprint('forkrepo', __name__)
 
+# TODO: use Jinja templates instead of these HTML strings.
 installation_confirm_html = '<!DOCTYPE html>' \
                             '<head><title>healthjoy-fork Installed</title></head>' \
                             '<body><p>Github app <b>healthjoy-fork</b> was successfully installed. ' \

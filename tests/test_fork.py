@@ -1,6 +1,6 @@
 import pytest
 
-access_token = 'ghu_7JIPTgYCcKfiBuZXWBscTzRdxuZK2w1bSO9p'
+access_token = 'ghu_HqoMCnKGbNcqyGL11QGOFKDFAgg04J3niT6v'
 code = '0f6ce141db3195343ced'
 
 
