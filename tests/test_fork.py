@@ -1,8 +1,10 @@
+import pytest
 
 access_token = 'ghu_7JIPTgYCcKfiBuZXWBscTzRdxuZK2w1bSO9p'
 code = '0f6ce141db3195343ced'
 
 
+@pytest.mark.skip(reason="no way of currently testing this. code value can be used only once to get access_token")
 def test_create_request(client):
     response = client.get("/fork-request?code={}".format(code))
     assert response.status_code == 200
